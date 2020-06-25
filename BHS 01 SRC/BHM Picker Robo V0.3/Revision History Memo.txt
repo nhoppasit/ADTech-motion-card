@@ -1,0 +1,541 @@
+﻿9:48 PM 1/16/2018
+ตรวจสอบการหมุนตะกร้าของตะกร้าเข้าไม่ครบสิบแต่มีกล้อง
+-----------------------------------------------------------------------------11:16 10/01/18
+เพิ่ม Control panel ลงใน Timer Tick
+IN24 = RESET
+IN25 = HOME
+IN26 = START
+OUT11 = GREEN-READY
+OUT15 = RED-ALARM
+------------------------------------------------------------------------------
+9:58 08/01/18
+ปรับปุ่มหน้าจอ ให้มีคำสั่ง เทขยะ ทั้ง เข้าสิบใบ และเข้ากี่ใบก็ได้
+Update โปรแกรมให้เป็นรุ่นล่าสุด
+------------------------------------------------------------------------------
+
+15:00 29DEC2017
+
+First up
+-942031, -942024, -7
+-822031, -822022, -9
+Lift....
+-822030, -822021, -9
+-1057521, -1057512, -9
+Lift....DONE
+The thread '<No Name>' (0x1524) has exited with code 0 (0x0).
+ibt = 1
+TURN THE DISK
+Trun positive....
+Kick....
+Kick....DONE
+Trun positive....DONE
+The thread '<No Name>' (0xdf8) has exited with code 0 (0x0).
+-1057521, -1057514, -7
+-937521, -937512, -9
+Lift....
+-937520, -937511, -9
+-1173011, -1173002, -9
+Lift....DONE
+The thread '<No Name>' (0x5d8) has exited with code 0 (0x0).
+ibt = 2
+NO TURN THE DISK
+Kick....
+Kick....DONE
+The thread '<No Name>' (0xa78) has exited with code 0 (0x0).
+-1173011, -1173003, -8
+END Lift....
+-1173010, -1173003, -7
+-1, 6, -7
+-1, 7, -8
+-1, 8, -9
+END Lift....DONE
+The thread '<No Name>' (0xb24) has exited with code 0 (0x0).
+ibt = 3
+TURN THE DISK
+Trun negative....
+Kick....
+Reloading...
+Kick....DONE
+Trun negative....DONE
+The thread '<No Name>' (0x147c) has exited with code 0 (0x0).
+PICK FAST 2....DONE
+The thread '<No Name>' (0x1720) has exited with code 0 (0x0).
+
+
+
+
+14:30 25/12/17
+
+18 DEc,2017
+136000,115490,120000
+300000,300000,6000,6000
+500000,7100
+108,200
+179,500
+-----------------------
+
+
+Test vision
+Arm = -108 = -296027
+Hand = +200 = 284200
+----------------------------------------------------------
+
+
+
+14:12 28/11/2560
+in17 = btop
+
+
+11:21 17/10/2560
+ปรับปรุง vision
+
+17:38 16/10/2560
+สร้าง vision สุดท้าย
+
+
+10:12 5/09/17
+หน่วงเวลาเมื่อปล่อยมือแล้ว 500 ms
+
+
+10:12 29/08/17
+เพิ่มการตรวจสอบ Sensor ที่จานให้แน่ใจว่ามี หรือไม่มีตะกร้าก่อนทำงานอื่น
+1.  สั่งปล่อยตะกร้า
+2. หน่วงเวลา 200ms
+3. อ่านเซนเซอร์ 2 ช่อง  (ขยายได้ด้วย Relay) 
+      3.1 Sensor วางดี      ขนาน
+      3.2 Sensor วางไม่ดี  อนุกรม
+
+       ก. มี - ทำงานต่อไปได้
+       ข. ไม่มี - หยุดฉุกเฉิน
+
+
+
+
+Reloading...
+Reloaded
+Fast pick
+First up
+-102707, -102708, 1
+17291, 17290, 1
+Lift....
+17292, 17291, 1
+Kick....
+-216848, -216849, 1
+Lift....DONE
+The thread '<No Name>' (0x1c40) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x1c6c) has exited with code 0 (0x0).
+-216848, -216849, 1
+-96849, -96850, 1
+Lift....
+-96848, -96849, 1
+Trun negative....
+-330967, -330968, 1
+Lift....DONE
+The thread '<No Name>' (0x1bc8) has exited with code 0 (0x0).
+Kick....
+-330967, -330968, 1
+Kick....DONE
+Trun negative....DONE
+The thread '<No Name>' (0x1bd0) has exited with code 0 (0x0).
+-210967, -210968, 1
+Lift....
+-210966, -210967, 1
+Kick....
+-445797, -445798, 1
+Lift....DONE
+The thread '<No Name>' (0x1bc0) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x1bb8) has exited with code 0 (0x0).
+-445797, -445798, 1
+-325797, -325798, 1
+Lift....
+-325796, -325797, 1
+Trun positive....
+-559880, -559881, 1
+Lift....DONE
+The thread '<No Name>' (0x1bd4) has exited with code 0 (0x0).
+Kick....
+-559880, -559881, 1
+Kick....DONE
+Trun positive....DONE
+The thread '<No Name>' (0x1bb4) has exited with code 0 (0x0).
+-439880, -439881, 1
+Lift....
+-439879, -439880, 1
+Kick....
+-674012, -674013, 1
+Lift....DONE
+The thread '<No Name>' (0x1ba8) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x195c) has exited with code 0 (0x0).
+-674012, -674013, 1
+-554012, -554013, 1
+Lift....
+-554011, -554012, 1
+Trun negative....
+-788139, -788140, 1
+Lift....DONE
+The thread '<No Name>' (0x1930) has exited with code 0 (0x0).
+Kick....
+-788139, -788140, 1
+Kick....DONE
+Trun negative....DONE
+The thread '<No Name>' (0x1938) has exited with code 0 (0x0).
+-668139, -668140, 1
+Lift....
+-668138, -668139, 1
+Kick....
+-902271, -902272, 1
+Lift....DONE
+The thread '<No Name>' (0xcbc) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x1064) has exited with code 0 (0x0).
+-902271, -902272, 1
+-782271, -782272, 1
+Lift....
+-782270, -782271, 1
+Trun positive....
+-1017788, -1017789, 1
+Lift....DONE
+The thread '<No Name>' (0x1504) has exited with code 0 (0x0).
+Kick....
+-1017788, -1017789, 1
+Kick....DONE
+Trun positive....DONE
+The thread '<No Name>' (0x850) has exited with code 0 (0x0).
+-897788, -897789, 1
+Lift....
+-897787, -897788, 1
+Kick....
+-1131880, -1131881, 1
+Lift....DONE
+The thread '<No Name>' (0x1668) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0xcb8) has exited with code 0 (0x0).
+-1131880, -1131881, 1
+END Lift....
+-1131879, -1131880, 1
+Trun negative....
+Reload....
+Kick....
+Kick....DONE
+Trun negative....DONE
+The thread '<No Name>' (0x1424) has exited with code 0 (0x0).
+Reload....pulse
+-3684, -4961, 1277
+END Lift....DONE
+The thread '<No Name>' (0x13a4) has exited with code 0 (0x0).
+PICK FAST 2....DONE
+The thread '<No Name>' (0x1d9c) has exited with code 0 (0x0).
+
+14:05 27/09/17
+ทดสอบ
+Color sensor ผิดด้าน
+แก้ไขให้ตัว hand สามารถตั้ง offset ได้
+เปิดทำงาน auto reload (ทำงานต่อเนื่อง)
+ปรับองศาแขนตอนวางเพิ่ม/ลดได้
+
+PICK FAST 3....
+Reloading...
+Reloaded
+Fast pick
+First up
+-102707, -102707, 0
+-4294950004, -4294950004, 0
+Lift....
+17292, 17292, 0
+Trun positive....
+-217512, -217512, 0
+Lift....DONE
+The thread '<No Name>' (0x149c) has exited with code 0 (0x0).
+Kick....
+Kick....DONE
+-217513, -217513, 0
+Trun positive....DONE
+The thread '<No Name>' (0x1208) has exited with code 0 (0x0).
+-97513, -97513, 0
+Lift....
+-97512, -97512, 0
+Kick....
+-332323, -332323, 0
+Lift....DONE
+The thread '<No Name>' (0x14c0) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x1360) has exited with code 0 (0x0).
+-332323, -332323, 0
+-212323, -212323, 0
+Lift....
+-212322, -212322, 0
+Trun negative....
+-447148, -447148, 0
+Lift....DONE
+The thread '<No Name>' (0x1888) has exited with code 0 (0x0).
+Kick....
+Kick....DONE
+Trun negative....DONE
+The thread '<No Name>' (0x18b4) has exited with code 0 (0x0).
+-447148, -447148, 0
+-327148, -327148, 0
+Lift....
+-327147, -327147, 0
+Kick....
+-561994, -561994, 0
+Lift....DONE
+The thread '<No Name>' (0xcdc) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x2ac4) has exited with code 0 (0x0).
+-561994, -561994, 0
+-441994, -441994, 0
+Lift....
+-441993, -441993, 0
+Trun positive....
+-676017, -676017, 0
+Lift....DONE
+The thread '<No Name>' (0x2a9c) has exited with code 0 (0x0).
+Kick....
+Kick....DONE
+Trun positive....DONE
+The thread '<No Name>' (0x2910) has exited with code 0 (0x0).
+-676017, -676017, 0
+-556017, -556017, 0
+Lift....
+-556016, -556016, 0
+Kick....
+-790873, -790873, 0
+Lift....DONE
+The thread '<No Name>' (0x2b40) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x29cc) has exited with code 0 (0x0).
+-790873, -790873, 0
+-670873, -670873, 0
+Lift....
+-670872, -670872, 0
+Trun negative....
+-904916, -904916, 0
+Lift....DONE
+The thread '<No Name>' (0x2b44) has exited with code 0 (0x0).
+Kick....
+Kick....DONE
+Trun negative....DONE
+-904916, -904916, 0
+The thread '<No Name>' (0x2b48) has exited with code 0 (0x0).
+-784916, -784916, 0
+Lift....
+-784915, -784915, 0
+Kick....
+-1019047, -1019047, 0
+Lift....DONE
+The thread '<No Name>' (0x28d8) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x2a70) has exited with code 0 (0x0).
+-1019047, -1019047, 0
+-899047, -899047, 0
+Lift....
+-899046, -899046, 0
+Trun positive....
+-1133882, -1133882, 0
+Lift....DONE
+The thread '<No Name>' (0x2ab0) has exited with code 0 (0x0).
+Kick....
+Kick....DONE
+-1133882, -1133882, 0
+Trun positive....DONE
+The thread '<No Name>' (0x2b50) has exited with code 0 (0x0).
+END Lift....
+-1133881, -1133881, 0
+Kick....
+PICK FAST 2....DONE
+The thread '<No Name>' (0x26f4) has exited with code 0 (0x0).
+Kick....DONE
+The thread '<No Name>' (0x2b64) has exited with code 0 (0x0).
+Reload....
+Reload....pulse
+-4294967296, -1, -4294967295
+END Lift....DONE
+The thread '<No Name>' (0x2b5c) has exited with code 0 (0x0).
+
+
+
+14:01 26/09/17
+ทดลองกับเครื่องจักร
+
+
+11:24 26/9/2560
+ปรับจังหวะตัวยกให้รอ in position
+
+12:16 14/9/2560
+กำหนดการเข้าตะกร้าตั้งใหม่ แบบช้าลง
+
+10:55 26/05/17
+ลดทรัพยากร
+ทดสอบ jogging
+ทดสอบ Reference and Goto Zero
+----------------------------------------------------------------------------------------------------------------------------------------------------
+14:11 17/05/17
+ปรับส่วนยกขึ้นลง
+-ให้ส่วนยกลดระดับลงทันทีเมื่อตะกร้าใบสุดท้ายถูกจับแล้ว
+-เมื่อลดระดับลงได้แล้วให้ส่ง output #2RDY
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+11:34 17/05/17
+ในรอบการทำงานท้ายๆ ตัวแตะกระตุก
+คาดเกิดจาก fifo ถูกยกเลิก
+พิจารณาแล้วเกิดจากเซนเซอร์พ้นระยะ dog ไปแล้ว คำสั่งตรวจจับจึงไม่สามารถจบการทำงานได้
+----------------------------------------------------------------------------------------------------------------------------------------------------
+4:57 PM 10/14/2015
+งานต่อไป Analog regulator control
+
+งานล่าสุด frm Auto ใช้ได้โดยไร้ปัญหา
+Remote ใช้งานได้ดั่งใจแล้ว  อาจจะยังป้องกันไม่ทุกจุดต้องลองใช้ดูอีก ( ขึ้นกับตรรกะผู้ใช้ -*- )
+----------------------------------------------------------------------------------------------------------------------------------------------------
+12:30 PM 10/7/2015
+เพื่ม 	frmfogspeed ไว้ปรับความเร็มในการ Jog ตัวแปรความเร็วเริ่มต้นอยู่ใน form นี้
+เพื่ม	ปุ่ม insert copy และ paste ใน frmteaching
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+1:50 PM 10/5/2015
+แก้	ให้หน้า jogging ไม่ปรากฏในหน้า teaching จะเห็นก้ต่อเมื่อเลือกฟังก์ชัน move to ,move line ,table และ rotary เท่านั้น
+เพื่ม	Autorun  ให้ test run ต่อเนื่องได้แล้ว 
+เพื่ม	ปุ่ม pause หยุดชั่วคราว ได้  	
+เพื่ม	ปุ่ม copy  paste และ insert ( รูปเครื่องหมาย + สำหรับแทรกโปรแกรม)
+	ตอนนี้แทรก copy และวางได้  ทดสอบกับคำสั่ง greenswitch กับ delay แต่คาดว่าจะมีปัญหากับคำสั่งการเคลื่อนที่ที่สนใจจุดเริ่ม จุดสุดท้าย
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+2:29 PM 10/1/2015
+เพิ่ม	คำสั่งการ jog และ home ของแกน Rotary
+แก้	การ teaching ของ Rotary 
+ **	มีความผิดพลาดของตัว adt8940a1.lib  ที่คำสั่ง Relative move ตำแหน่งของ low speen และ high speed สลับกัน 
+	*แก้แล้ว สลับกันไว้ตรง Ctrlcard
+**	พบการประกาศตัวแปล read_bit ภายใน adt8940a1 ผิดพลาด 
+	*แก้แล้ว
+ลองเพิ่ม	เพิกเฉยเซนเซอร์ก่อนทำการเคลื่อนที่ แล้วกลับมาสนใจใหม่ ชื่อฟังก์ชันคือ SensorAlleffective และ SensorAllineffective 
+	ที่	MoveToHomeAll_Arm_BlowGun()
+		ภายใน frmteaching
+		If UCase(lvi.SubItems(1).Text) = "MOVE" Then
+		If UCase(lvi.SubItems(1).Text) = "LINE" Then
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+8:36 AM 9/30/2015
+แก้	ภายในไฟล์ Ctrlcard.vb ให้การเรียกใช้ฟังก์ชันใน lib ของการ์ด 6 แกน มีการระบุ adt8960. อยู่ข้างหน้า
+	และทำการเพื่มคำสั่งสำหรับเรียกใช้การ์ด 4 แกนในไฟล์ Ctrlcard เดียวกัน โดยชื่อของ plublic function สำหรับการ์ด 4 แกน จะมีคำว่า adt8940a1_ อยู่ข้างหน้า
+	เช่น 	Public Function  Get_Version() As Single  -->  เป็นของการ์ด 6 แกน
+			Dim libver As Single
+        			libver = adt8960.get_hardware_ver(0)
+        			Return libver
+    		End Function
+		Public Function  adt8940a1_Get_Version()  As Single  --> เป็นของการ์ด 4 แกน
+			Dim libver As Single
+			libver = adt8940a1.get_hardware_ver(0)
+        			Return libver
+		End Function
+แก้	sensor สำหรับ R11 และ R12 ใน frm main  checked  ให้เลือกอ่านเซนเซอร์ตาม เงื่อนไข if
+เพิ่ม 	suddenstop สำหรับการ์ด 4 แกน ใน stoplib.vb
+	adt8940a1.reset_fifo(0)
+        		For i = 1 To 4
+            		adt8940_StopRun(i, 0) 'Stop each axis
+        	Next i
+แก้	R11 ในไฟล์ jogrotary  แก้จากคำสั่งที่เป็นพอร์ตปริ้นเตอร์ ให้คำสั่งเป็นการ relativemove โดยการ์ด
+เพื่ม	คำสั่ง สำหรับ R12 ใน frmjogging และ jogrotary
+เพื่ม	การ homeของ Rotary เหมือนของ 5 แกน ทุกอย่าง 
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+12:00 PM 9/28/2015
+แก้ Absolute MOVE ของ ปุ่ม gotohome กับ testrun ของ teching
+	แก้ให้เหลือ nstatus ตัวเดียว เงื่อนไขเดียว
+9:24 AM 9/26/2015
+แก้  	jogbending กับ jog twist 
+	ใส่ ' คำสั่ง
+	Get_CurrentInfo(mAxis, LPOS, APOS, Speed)
+            	If LPOS <= LimitMinusPulse Then StopRun(mAxis, 0)
+	ทุกจุด
+ผลลัพท์ 	ปัจจุบัน แกน T Be Tw มีลักษณะเหมือนกันคือ jog + - ตรงตามทิศทางที่ต้องการ Pos position เป็น + - ตามปุ่มกด ฃ
+	แต่ real position จะมีค่าตรงข้าม
+2:06 PM 9/25/2015
+แก้  RoboticControl.vb
+	PB1_A = 29  
+	 vvv
+	PB1_A = 30 
+
+แก้	frmJogging.vb 
+	สลับตำแหน่ง ปุ่ม T+ T-
+	
+แก้	#Region "Running Parameters + Timer"
+	Private Sub timerRunning_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles timerRunning.Tick
+        If Not My.Settings.UseCard Then Exit Sub
+        DoCheckParameters()
+    End Sub
+		vvvvvvvv
+	#Region "Running Parameters + Timer"
+    Private Sub timerRunning_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles timerRunning.Tick
+        If Not My.Settings.UseCard Then Exit Sub
+        DoCheckParameters()
+
+        If Read_Input(31) = 0 Then
+            StopLib.SuddenStopAll()
+            ShowAlert("Emergency", 1500)
+            Dim breakalarm As New dlgMsgYESNO
+            breakalarm.rtbText.Text = "แกน V เบรคแล้ว คุณต้องการปลดเบรก ใช่หรือไม่ ?" & Environment.NewLine & _
+                                 "ปลดเบรค = YES, ไม่ต้องการ = NO"
+            If breakalarm.ShowDialog = Windows.Forms.DialogResult.Yes Then
+                Write_Output(ContactNo.V_Break, 1)
+            End If
+
+        End If
+
+    End Sub
+
+
+
+--------------------------------------------------------------
+
+3:16 PM 9/24/2015
+Stop 0 ของแกน T สำหรับปุ่ม Home ทำงานผิดพลาด
+เหตุ - มี Limit Sensor ผิดไปจากคำสั่งเดิม ---> แก้ที่คำสั่ง Home-T
+--------------------------------------------------------------
+3:16 PM 9/24/2015
+T-axis
+     Limit+/- Sensor สลับกัน
+--------------------------------------------------------------
+1:57 PM 9/24/2015
+EMG Mode ต้องต่อ NC อนุกรมกับ Relay-Out3 = V_break
+--------------------------------------------------------------
+1:57 PM 9/24/2015
+- เริ่มศึกษาและแก้ 8960 ให้เป็นระบบ Class ทั้งหมด
+- ปรับ enum ของ Output
+Public Enum ContactNo
+        T_SON = 0
+        K_SON = 3
+        V_SON = 8
+
+        START_NO = 7
+        ROT_SON = 13
+
+        '
+        T_ARST = 2
+        K_ARST = 6
+        V_ARST = 10
+        ROT_ARST = 14
+
+        STOP_NC = 15
+    End Enum
+
+	VVVV
+
+    Public Enum ContactNo
+        SON = 0
+        CLR = 1
+        ARST = 2
+
+        V_Break = 3
+
+        MC_ON_1 = 10
+        MC_OFF_1 = 11
+
+        MC_ON_2 = 12
+        MC_OFF_2 = 13
+
+    End Enum
+
+
+--------------------------------------------------------------
